@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "asyncio-python"
+version = "0.1.0"
+description = ""
+authors = ["Shion W <shion.wakita@servco.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.31.0"
+aiohttp = "^3.9.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
